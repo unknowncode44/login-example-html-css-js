@@ -8,18 +8,18 @@
 </head>
 <body>
     <div class="wrapper">
-        <form action="">
+        <form id="loginForm" action="">
             <h1>Login</h1>
             <div class="input-bx">
-                <input type="text" placeholder="Usuario" required>
+                <input name="user" type="text" placeholder="Usuario" required>
                 <ion-icon class="icon" name="person-circle"></ion-icon>
             </div>
             <div class="input-bx">
-                <input type="password" placeholder="Contraseña" required>
+                <input name="password" type="password" placeholder="Contraseña" required>
                 <ion-icon class="icon" name="lock-closed"></ion-icon>
             </div>
             <div class="remember-forgot">
-                <label><input type="checkbox"> Recordarme</label>
+                <label><input type="checkbox" name="remember"> Recordarme</label>
                 <a href="#">Olvidaste tu contraseña</a>
             </div>
             <button type="submit" class="btn">Ingresar</button>
